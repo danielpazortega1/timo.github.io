@@ -1,15 +1,46 @@
 /* Comentario CSS */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-h1 {
-    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em; 
+    margin-left: 490px;
+    font-size: 30px;
     text-align: center;
+    line-height: 0.1; 
+    color: #000000; 
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
+/* Estilos adicionales específicos para h2 */
+h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em; 
+    margin-left: 550px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0.1; 
+    color: #000000; 
+    letter-spacing: 1.5px;
 }
+h3 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 365px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 3;
+    color: #000000; 
+    letter-spacing: 2px; 
+    border-bottom: 100px solid rgb(9, 9, 78);
+    width: 90%;
+}
+
