@@ -1,171 +1,94 @@
-/* Comentario CSS */
 body {
-    background-image: url('https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png'), url('https://c0.klipartz.com/pngpicture/915/706/gratis-png-icono-de-llamada-azul-marcador-android-telefono-de-google-play-telefono.png'),url(https://cdn.icon-icons.com/icons2/1195/PNG/512/1490889681-email_82528.png);
-    background-size: 300px, 50px,42px;
-    background-position: top 15% left 15%, top 415px left 180px, top 475px left 184px;
-    background-repeat: no-repeat; 
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-
-
-
-h1, h2, h3,h4 {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    font-size: 15px;
+header {
     text-align: center;
-    line-height: 0.1;
-    color: #000000;
+    margin-bottom: 20px;
 }
 
-/* Estilos para dispositivos móviles */
-@media only screen and (max-width: 600px) {
-    body {
-        background-size: 100px, 1px;
-    background-position: top 10% left 10%, top 380px left 100px;
-    background-repeat: no-repeat, no-repeat; 
-    }
-    h1 {
-        margin-left: 65px;
-        font-size: 18px;
-    }
-
-    h2 {
-        margin-left: 80px; 
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    h3 {
-        margin-left: 150px; 
-        font-size: 12px;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        border-bottom: 50px solid rgb(9, 9, 78);
-        width: 60%;
-    }
-    h4{
-        margin-left: 550px;
-        font-size: 40px;
-        letter-spacing: 1.5px;
-    }
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 5px;
 }
 
-/* Estilos para pantallas más grandes (computadoras de escritorio) */
-@media only screen and (min-width: 601px) {
-    h1 {
-        margin-left: 80px;
-        font-size: 50px;
-        letter-spacing: 3px;
-        line-height: 1.4;
-    }
-    h1 span:nth-of-type(2) {
-        margin-left: 150px;
-    }
-    
-    h1 span:nth-of-type(3) {
-        margin-left: 140px;
-        font-size: 20px;  
-    }
-    /*Franja de linea azul de bajo de el Ing. Informatica y sistemas */
-h1 span:nth-of-type(4) {
-    display: inline-block;
-    width: 70%;
-    height: 70px; 
-    background-color: rgb(75, 75, 131); 
-    margin-top: 10px;
+p {
+    color: #666;
+}
+
+.profile, .experience, .education {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #444;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+section {
     position: relative;
-    top: 0px;
-    left: 220px;
 }
-    h2 {
-    margin-left: -750px;
-    margin-top: 10px;
-    font-size: 20px;
-    letter-spacing: 3px;
-    line-height: 1;
-    }   
-    h2 span:nth-of-type(1) {
-    margin-left: 10px;
-    font-size: 40px;   
-    }
-    h2 span:nth-of-type(2)
-    {
-        margin-left: 20px;
-        font-size: 15px; 
-        letter-spacing: 3px;
-        
-    }
-    h3 {
 
-        line-height: 2;
-        letter-spacing: 2px;
-    }
-    h3 span:nth-of-type(1)
-    {
-         font-size: 35px;
-         margin-left: -800px;
-    }
-    h3 span:nth-of-type(2)
-    {
-        list-style-type: disc;
-         font-size: 20px; 
-         margin-left: -900px;
-    }
-    h3 span:nth-of-type(3)
-    {
-        list-style-type: disc;
-         font-size: 20px; 
-         margin-left: -753px;
-    }
-    h3 span:nth-of-type(4)
-    {
-        list-style-type: disc;
-         font-size: 20px; 
-         margin-left: -725px;
-    }
-    h3 span:nth-of-type(5)
-    {
-        list-style-type: disc;
-         font-size: 20px; 
-         margin-left: -740px;
-    }
-    h3 span:nth-of-type(6)
-    {
-        list-style-type: disc;
-         font-size: 20px; 
-         margin-left: -810px;
-    }
-    h4 {
-        font-family: 'Helvetica Neue', Arial, sans-serif;
-        font-weight: bold;
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-        font-size: 15px;
-        
-        line-height: 1.5; /* Ajustado a 1.5 para mejorar la legibilidad */
-        color: #000000;
-    }
-    
-    #about-me {
-        max-height: calc(1.5em * 10); /* Establece una altura máxima basada en 10 líneas */
-        overflow: hidden; /* Oculta el texto que sobrepasa la altura máxima */
-        line-height: 1.5; /* Espaciado entre líneas */
-        font-size: 15px; /* Tamaño de fuente */
-        text-align: center; /* Alineación del texto */
-        margin-top: 1em; /* Margen superior */
-        margin-bottom: 0.5em; /* Margen inferior */
-        white-space: pre-wrap; /* Forzar saltos de línea */
-    }
-    
-    
-    
-    
-  
-    
-    
-    
+.section-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+}
+
+.profile .section-divider {
+    background-color: #3498db;
+}
+
+.experience .section-divider {
+    background-color: #2ecc71;
+}
+
+.education .section-divider {
+    background-color: #9b59b6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
 }
