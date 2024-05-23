@@ -103,3 +103,17 @@ footer p {
     background-color: #f2f2f2; /* Color de fondo para la imagen */
     object-fit: cover; /* Para que la imagen se ajuste bien */
 }
+.instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #405DE6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.instagram-button:hover {
+    background-color: #5773FF;
+}
+
